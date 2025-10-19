@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 from .terrain import generate_reference_and_limits
-from control import PDController
+from uuv_mission.control import PDController
 
 class Submarine:
     def __init__(self):
